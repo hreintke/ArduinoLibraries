@@ -107,7 +107,7 @@ void Ticker::restart()
 			attachPeriodicUs(activeInterval, activeCallback);
 			break;
 		case ONCE:
-			attachOnceMs(activeInterval, activeCallback);
+			attachOnceUs(activeInterval, activeCallback);
 			break;
 	}
 }
